@@ -26,7 +26,7 @@ for record in csvfile:
             monthly_steps = 0
 
     # Fenruary
-    if record[0] == '2':    
+    elif record[0] == '2':    
         month = 'February'
         monthly_steps += int(record[1])
         count += 1
@@ -37,7 +37,7 @@ for record in csvfile:
             monthly_steps = 0
 
     # March
-    if record[0] == '3':    
+    elif record[0] == '3':    
         month = 'March'
         monthly_steps += int(record[1])
         count += 1
@@ -48,7 +48,7 @@ for record in csvfile:
             monthly_steps = 0
 
     # April
-    if record[0] == '4':    
+    elif record[0] == '4':    
         month = 'April'
         monthly_steps += int(record[1])
         count += 1
@@ -59,7 +59,7 @@ for record in csvfile:
             monthly_steps = 0
 
     # May
-    if record[0] == '5':    
+    elif record[0] == '5':    
         month = 'May'
         monthly_steps += int(record[1])
         count += 1
@@ -71,7 +71,7 @@ for record in csvfile:
 
 
     # June
-    if record[0] == '6':    
+    elif record[0] == '6':    
         month = 'June'
         monthly_steps += int(record[1])
         count += 1
@@ -83,7 +83,7 @@ for record in csvfile:
 
 
     # July
-    if record[0] == '7':    
+    elif record[0] == '7':    
         month = 'April'
         monthly_steps += int(record[1])
         count += 1
@@ -95,7 +95,7 @@ for record in csvfile:
 
 
     # August
-    if record[0] == '8':    
+    elif record[0] == '8':    
         month = 'April'
         monthly_steps += int(record[1])
         count += 1
@@ -107,7 +107,7 @@ for record in csvfile:
 
 
     # September
-    if record[0] == '9':    
+    elif record[0] == '9':    
         month = 'September'
         monthly_steps += int(record[1])
         count += 1
@@ -119,7 +119,7 @@ for record in csvfile:
 
 
     # October
-    if record[0] == '10':    
+    elif record[0] == '10':    
         month = 'October'
         monthly_steps += int(record[1])
         count += 1
@@ -131,7 +131,7 @@ for record in csvfile:
 
 
     # November
-    if record[0] == '11':    
+    elif record[0] == '11':    
         month = 'November'
         monthly_steps += int(record[1])
         count += 1
@@ -143,7 +143,7 @@ for record in csvfile:
 
 
     # December
-    if record[0] == '12':    
+    elif record[0] == '12':    
         month = 'December'
         monthly_steps += int(record[1])
         count += 1
